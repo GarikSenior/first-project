@@ -18,17 +18,18 @@ public:
 private:
   Ui::MainWindow *ui;
 
+  double fNumber;
   double firstNumbers;
-  double secondNumbers;
   QString new_label;
   bool buttonPlus;
 private slots:
   void digits_numbers();
   void on_pushButton_dot_clicked();
-  void onPushButtonPlusClicked();
+
   void on_pushButton_AC_clicked();
   void makeNegOrPosNubmer();
-  void onPushButtonInterestClicked();
-  void onPushButtonMinusClicked();
+  void onPushButtonPercentClicked();
+
   void onPushButtonEqualClicked();
+  void mathOperations();
 };
