@@ -21,7 +21,7 @@ border: 1xp solid gray;
 backgroynd-color : white;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="result_show">
+   <widget class="QLabel" name="displayLine">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -162,7 +162,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_percentages">
+   <widget class="QPushButton" name="pushButtonInterest">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -298,7 +298,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
      <string>5</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_equal">
+   <widget class="QPushButton" name="pushButtonEqual">
     <property name="geometry">
      <rect>
       <x>178</x>
@@ -412,7 +412,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
      <string>8</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="pushButton_negNumb">
     <property name="geometry">
      <rect>
       <x>62</x>
