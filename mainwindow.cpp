@@ -47,9 +47,12 @@ MainWindow::~MainWindow() { delete ui; }
 void MainWindow::digits_numbers() {
   QPushButton *button = (QPushButton *)sender();
 
-  firstNumbers = (ui->displayLine->text() + button->text()).toDouble();
-  new_label = QString::number(firstNumbers, 'g', 15);
-
+  if (ui->displayLine->text().contains(".") && button->text() == "0") {
+    new_label = ui->displayLine->text() + button->text();
+  } else {
+    firstNumbers = (ui->displayLine->text() + button->text()).toDouble();
+    new_label = QString::number(firstNumbers, 'g', 15);
+  }
   ui->displayLine->setText(new_label);
 }
 
@@ -81,6 +84,7 @@ void MainWindow::onPushButtonPercentClicked() {
 void MainWindow::mathOperations() {
   QPushButton *button = (QPushButton *)sender();
   fNumber = ui->displayLine->text().toDouble();
+  ui->displayLineUp->setText(ui->displayLine->text());
   ui->displayLine->setText("");
   button->setChecked(true);
 }
@@ -120,4 +124,5 @@ void MainWindow::onPushButtonEqualClicked() {
     ui->displayLine->setText(newLabel);
     ui->pushButtonPlus->setChecked(false);
   }
+  ui->displayLineUp->setText("");
 }

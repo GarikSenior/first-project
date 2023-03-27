@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>244</width>
-    <height>350</height>
+    <height>409</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">QLabel{
 qproperty-alignment:'AlignVCentr | AlignRight';
-border: 1xp solid gray;
+border: 1xp solidgray;
 }
 backgroynd-color : white;</string>
   </property>
@@ -25,9 +25,9 @@ backgroynd-color : white;</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>68</y>
       <width>211</width>
-      <height>41</height>
+      <height>28</height>
      </rect>
     </property>
     <property name="font">
@@ -44,7 +44,7 @@ backgroynd-color : white;</string>
 qproperty-alignment: 'AlignVCenter | AlignRight';
 border-bottom: 1xp solidgray;
 }
-background-color : white;</string>
+background-color : write;</string>
     </property>
     <property name="text">
      <string>0</string>
@@ -57,7 +57,7 @@ background-color : white;</string>
     <property name="geometry">
      <rect>
       <x>124</x>
-      <y>230</y>
+      <y>287</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -83,7 +83,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>124</x>
-      <y>290</y>
+      <y>348</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -114,7 +114,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>124</x>
-      <y>170</y>
+      <y>226</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -140,7 +140,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>124</x>
-      <y>110</y>
+      <y>165</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -166,7 +166,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>124</x>
-      <y>50</y>
+      <y>104</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -195,7 +195,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #BEBEBE, st
     <property name="geometry">
      <rect>
       <x>4</x>
-      <y>170</y>
+      <y>226</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -221,7 +221,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>64</x>
-      <y>230</y>
+      <y>287</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -247,7 +247,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>4</x>
-      <y>50</y>
+      <y>104</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -276,7 +276,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #BEBEBE, st
     <property name="geometry">
      <rect>
       <x>64</x>
-      <y>170</y>
+      <y>226</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -302,7 +302,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>184</x>
-      <y>290</y>
+      <y>348</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -333,7 +333,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>4</x>
-      <y>290</y>
+      <y>348</y>
       <width>115</width>
       <height>55</height>
      </rect>
@@ -359,7 +359,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>184</x>
-      <y>170</y>
+      <y>226</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -390,7 +390,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>64</x>
-      <y>110</y>
+      <y>165</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -416,7 +416,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>64</x>
-      <y>50</y>
+      <y>104</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -445,7 +445,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #BEBEBE, st
     <property name="geometry">
      <rect>
       <x>4</x>
-      <y>230</y>
+      <y>287</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -471,7 +471,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>184</x>
-      <y>230</y>
+      <y>287</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -502,7 +502,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>184</x>
-      <y>50</y>
+      <y>104</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -533,7 +533,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>184</x>
-      <y>110</y>
+      <y>165</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -564,7 +564,7 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     <property name="geometry">
      <rect>
       <x>4</x>
-      <y>110</y>
+      <y>165</y>
       <width>55</width>
       <height>55</height>
      </rect>
@@ -584,6 +584,34 @@ background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 #dadbde, st
     </property>
     <property name="text">
      <string>7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="displayLineUp">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>211</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Light</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+qproperty-alignment: 'AlignVCenter | AlignRight';
+border-bottom: 1xp solidgray;
+text-color: gray;
+}
+background-color : write;</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
