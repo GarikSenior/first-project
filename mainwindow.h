@@ -2,34 +2,32 @@
 
 #include <QMainWindow>
 
-QT_BEGIN_NAMESPACE
-namespace Ui {
+namespace Ui
+{
 class MainWindow;
 }
-QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
-  Q_OBJECT
-
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
 public:
-  MainWindow(QWidget *parent = nullptr);
-  ~MainWindow();
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
 
 private:
-  Ui::MainWindow *ui;
+    void initWindow();
 
-  double fNumber;
-  double firstNumbers;
-  QString new_label;
-  bool buttonPlus;
-private slots:
-  void digits_numbers();
-  void on_pushButton_dot_clicked();
+    void digits_numbers();
+    void on_pushButton_dot_clicked();
+    void onPushButtonACClicked();
+    void makeNegOrPosNubmer();
+    void onPushButtonPercentClicked();
+    void onPushButtonEqualClicked();
+    void mathOperations();
 
-  void on_pushButton_AC_clicked();
-  void makeNegOrPosNubmer();
-  void onPushButtonPercentClicked();
-
-  void onPushButtonEqualClicked();
-  void mathOperations();
+    Ui::MainWindow *ui;
+    double FinalFirstNumber;
+    double firstNumbers;
+    QString new_label;
+    bool buttonPlus;
 };
